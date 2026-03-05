@@ -1,0 +1,194 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "code io",
+      "profile_picture": "src/assets/post5.png",
+      "image_url": "src/assets/db.png",
+      "caption": "best coding chennal in 2025 ....read more",
+      "likes": "2.8k",
+      "share": 140,
+      "comment": 105,
+      "reach": "14k",
+      "comments": [
+        {
+          "username": "ramesh",
+          "comment": "thanks for your vedio"
+        },
+        {
+          "username": "suresh",
+          "comment": "bro node js vedio poduga"
+        },
+        {
+          "username": "gokul",
+          "comment": "clear explanation bro"
+        }
+      ],
+      "timestamp": "2025-02-26T14:10:30Z"
+    },
+    {
+      "id": "5",
+      "username": "Tvk-Vijay",
+      "profile_picture": "src/assets/thum.jpg",
+      "image_url": "src/assets/post4.jpg",
+      "caption": "Fans meet! @pannaiur office,chennai-18. on 19/05/2025",
+      "likes": "120k",
+      "share": "3k",
+      "comment": "2k",
+      "reach": "700k",
+      "comments": [
+        {
+          "username": "mukil-admin",
+          "comment": "Wow! That looks amazing! 😍"
+        },
+        {
+          "username": "selva_446",
+          "comment": "Great shot! 📸"
+        }
+      ],
+      "timestamp": "2025-02-26T12:34:56Z"
+    },
+    {
+      "id": "2",
+      "username": "Sundar Raj",
+      "profile_picture": "src/assets/thum1.jpg",
+      "image_url": "src/assets/post1.jpg",
+      "caption": "Enjoying the sunset! 🌅",
+      "likes": "12k",
+      "share": 110,
+      "comment": 200,
+      "reach": "30k",
+      "comments": [
+        {
+          "username": "mukil-admin",
+          "comment": "Wow! That looks amazing! 😍"
+        },
+        {
+          "username": "selva_446",
+          "comment": "Great shot! 📸"
+        }
+      ],
+      "timestamp": "2025-02-26T12:34:56Z"
+    },
+    {
+      "id": "3",
+      "username": "movies_trichy",
+      "profile_picture": "src/assets/thum2.jpg",
+      "image_url": "src/assets/post 2.jpg",
+      "caption": "good content movie for money 🏖️",
+      "likes": "1.2k",
+      "share": 10,
+      "comment": 20,
+      "reach": "8k",
+      "comments": [
+        {
+          "username": "tvk_ram",
+          "comment": "yay good movie !!"
+        }
+      ],
+      "timestamp": "2025-02-26T13:45:00Z"
+    },
+    {
+      "id": "4",
+      "username": "TvK-fangirl",
+      "profile_picture": "src/assets/thum3.jpg",
+      "image_url": "src/assets/post 3.jpg",
+      "caption": "Morning coffee ☕",
+      "likes": "1.7k",
+      "share": 40,
+      "comment": 10,
+      "reach": "6k",
+      "comments": [
+        {
+          "username": "ramesh",
+          "comment": "That looks delicious! ☕❤️"
+        }
+      ],
+      "timestamp": "2025-02-26T14:10:30Z"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "username": "tvksundarraj",
+    "profile_picture": "src/assets/thum.jpg"
+  },
+  "suggession": [
+    {
+      "id": "5",
+      "username": "Tvk-Monoj",
+      "profile_picture": "src/assets/thum.jpg"
+    },
+    {
+      "id": "2",
+      "username": "Mohan",
+      "profile_picture": "src/assets/thum1.jpg"
+    },
+    {
+      "id": "3",
+      "username": "movies_trichy",
+      "profile_picture": "src/assets/thum2.jpg"
+    },
+    {
+      "id": "4",
+      "username": "TvK-fangirl",
+      "profile_picture": "src/assets/thum3.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 1,
+        "username": "Tvk-Monoj",
+        "profile_picture": "src/assets/post5.png",
+        "image_url": "src/assets/story1.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 2,
+        "username": "madesh_5057",
+        "profile_picture": "src/assets/thum.jpg",
+        "image_url": "src/assets/story2.jpg"
+      }
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 3,
+        "username": "kavin_badboy",
+        "profile_picture": "src/assets/thum1.jpg",
+        "image_url": "src/assets/story3.jpg"
+      }
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 4,
+        "username": "weekend-vloger",
+        "profile_picture": "src/assets/thum2.jpg",
+        "image_url": "src/assets/story4.jpg"
+      }
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 5,
+        "username": "sithu_vlogs",
+        "profile_picture": "src/assets/thum3.jpg",
+        "image_url": "src/assets/story5.jpg"
+      }
+    }
+  ],
+  "followers": [
+    {
+      "id": "4",
+      "username": "TvK-fangirl"
+    },
+    {
+      "id": "5",
+      "username": "Tvk-Monoj"
+    }
+  ]
+}

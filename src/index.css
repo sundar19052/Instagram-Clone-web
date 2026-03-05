@@ -1,0 +1,98 @@
+.w-20{
+    width: 20%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.logo-text{
+    width: 120px;
+}
+
+.bi{
+    margin-right: 10px;
+}
+
+
+
+.db{
+    height: 30px;
+    margin-top:5px;
+    margin-right: 5px; 
+}
+
+.image{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
+.effect{
+    padding: 4px;
+    transition: all 0.8s ease-in-out;
+    
+  
+}
+
+.effect:hover{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color:rgb(229, 234, 240);
+    cursor: pointer;
+   
+}
+
+.cap{
+    
+    max-width: 300px;
+}
+#book{
+    padding-left: 220px;
+    
+}
+
+#book1{
+    padding-left: 260px;
+    
+}
+
+.suggestion h5{
+        font-size:16px;
+}
+
+.suggestion .db{
+    margin-top: 0px; 
+}
+#prof{
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.story-db{
+    width: 40px;
+
+}
+.story{
+    height: 70px;
+    padding: 10px;
+}
+
+.story-align{
+    padding-left: 60px;
+}
+
+.gradient-border{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#ff00ff,#ff6600,#ffcc00);
+}
+
+.profile{
+    width: 50px;
+    height: 50px;
+}
