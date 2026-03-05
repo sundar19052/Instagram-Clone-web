@@ -3,7 +3,7 @@
     {
       "id": "1",
       "username": "code io",
-      "profile_picture": "src/assets/post5.png",
+      "profile_picture": "/assets/post5.png",
       "image_url": "/assets/db.png",
       "caption": "best coding chennal in 2025 ....read more",
       "likes": "2.8k",
@@ -29,7 +29,7 @@
     {
       "id": "5",
       "username": "Tvk-Vijay",
-      "profile_picture": "src/assets/thum.jpg",
+      "profile_picture": "/assets/thum.jpg",
       "image_url": "/assets/post4.jpg",
       "caption": "Fans meet! @pannaiur office,chennai-18. on 19/05/2025",
       "likes": "120k",
@@ -189,6 +189,10 @@
     {
       "id": "5",
       "username": "Tvk-Monoj"
+    },
+    {
+      "id": "3",
+      "username": "movies_trichy"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
