@@ -189,6 +189,11 @@
     {
       "id": "5",
       "username": "Tvk-Monoj"
+    },
+    {
+      "id": "5",
+      "username": "Tvk-Monoj"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
