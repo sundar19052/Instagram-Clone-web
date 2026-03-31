@@ -8,20 +8,20 @@ function Suggestion() {
   const [Suggestion, setSuggestion] = useState([]);
 
   useEffect(() => {
-    fetch(fetch('http://localhost:5000/profile').
+    fetch(fetch('./db.json/profile').
       then((data) => data.json()).
       then((data => setProfile(data))).
       catch(err => console.log(err)))
 
 
-    fetch(fetch('http://localhost:5000/suggession').
+    fetch(fetch('./db.json/suggession').
       then((data) => data.json()).
       then((data => setSuggestion(data))).
       catch(err => console.log(err)))
   }, [])
 
   const handleFollow= async(id,username)=>{
-    axios.post('http://localhost:5000/followers',{"id":id,"username":username})
+    axios.post('./db.json/followers',{"id":id,"username":username})
     .then(alert('followed'))
     .catch(err=>console.groupCollapsed(err))
   }

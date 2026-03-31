@@ -110,7 +110,7 @@
   "profile": {
     "id": 1,
     "username": "tvk_sundar",
-    "profile_picture": "/assets/thum.jpg"
+    "profile_picture": "/assets/post1.jpg"
   },
   "suggession": [
     {
@@ -187,12 +187,12 @@
       "username": "TvK-fangirl"
     },
     {
-      "id": "5",
-      "username": "Tvk-Monoj"
-    },
-    {
       "id": "3",
       "username": "movies_trichy"
+    },
+    {
+      "id": "5",
+      "username": "Tvk-Monoj"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

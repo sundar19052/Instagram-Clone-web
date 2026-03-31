@@ -11,7 +11,7 @@ function Viewstory() {
    const navigate=useNavigate();
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/story/${id}`)
+        fetch(`./db.json/story/${id}`)
         .then(data=>data.json())
         .then(data=>setStory(data))
         .catch(err=>console.log(err))

@@ -9,7 +9,7 @@ function Story() {
   let tot=0;
 
   useEffect(()=>{
-    fetch('http://localhost:5000/story')
+    fetch('./db.json/story')
     .then(data=>data.json())
     .then(data=>setStories(data))
     .catch(err=>console.log(err))
