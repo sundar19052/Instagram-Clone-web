@@ -5,7 +5,7 @@ function Posts() {
     const [Posts, setPosts] = useState([]);
     
      useEffect(()=>{
-        fetch('/db/db.json/posts').
+        fetch('./db/db.json/posts').
         then((data)=>data.json()).
         then((data=>setPosts(data))).
         catch(err=>console.log(err))
