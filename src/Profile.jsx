@@ -13,7 +13,7 @@ function Profile() {
             .catch(err => console.log(err))
 
 
-        axios.get('./db.json/followers')
+        axios.get('http://localhost:5000/followers')
             .then(data => { setFollowers(data.data)})
             .catch(err => console.log(err))
 
@@ -29,7 +29,7 @@ function Profile() {
     }
 
     const handleUpdate = async () => {
-        axios.put('./db.json/profile', profile)
+        axios.put('http://localhost:5000/profile', profile)
             .then(console.log("updated"))
             .catch(err => console.log(err))
 
@@ -39,7 +39,7 @@ function Profile() {
     }
 
     const handleUnfollow= async(id)=>{
-        axios.delete(`./db.json/followers/${id}`)
+        axios.delete(`http://localhost:5000/followers/${id}`)
         .then(alert("unfollowed"))
         .then(setUnfollwed(!unfollowed))
         .catch(err=>console.log(err))
